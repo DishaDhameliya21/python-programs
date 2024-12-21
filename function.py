@@ -42,3 +42,51 @@ def is_even(number):
 
 print(is_even(4))  
 print(is_even(7))  
+
+
+#function with multiple arguments
+def name(fname):
+    print(fname , "Dhameliya")
+
+name("Krina")
+name("Janvi")
+name("Ved")
+name("Vrund")    
+
+
+#function to make calculater
+def add(x , y):
+    return x + y
+def multiply(x , y):
+    return x * y
+def substract(x , y):
+    return x - y
+def division(x , y):
+    if(y == o):
+        return "cannot divide by zero"
+    return x / y
+
+print("select operation")
+print("1.addition:")
+print("2.multiplication:")
+print("3.substraction:")
+print("4.division:")
+
+choice = input("Enter your choice (1,2,3,4):")
+
+num1 = float(input("Enter your first number: "))
+num2 = float(input("Enter your second number: "))
+
+if choice == '1':
+    print(f" The result is :{add(num1 , num2)}")
+elif choice == '2':
+    print(f"The result is : {multiply(num1 , num2)}")    
+elif choice == '3':
+    print(f"The result is : {substract(num1 , num2)}")    
+elif choice == '4':
+    print(f"The result is : {division(num1 , num2)}")   
+
+else:
+    print("Invalid input")     
+    
+
